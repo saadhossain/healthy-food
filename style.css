@@ -100,9 +100,24 @@ p{
     justify-content: center;
     align-items: center;
 }
-.promo-text, .promo-image{
-    width: 50%;
-}
 .promo-text{
     padding:0px 80px;
+}
+.promo-img-bottom{
+    margin:-5px 0px;
+}
+
+.free-deliver{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/free-delivery-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.delivery-text{
+    width: 800px;
+    text-align: center;
 }

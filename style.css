@@ -6,6 +6,12 @@ body{
 h1{
     font-size: 80px;
 }
+h2{
+    font-size: 60px;
+}
+p{
+    font-size: 18px;
+}
 .header{
     background-image: url(images/header-background-image-food.jpg);
     background-repeat: no-repeat;
@@ -74,6 +80,7 @@ h1{
 }
 .item-content{
     padding-left:10px;
+    text-align: left;
 }
 .item-content span{
     color:#E53E20;/*Tomato color*/
@@ -87,4 +94,15 @@ h1{
     color:#fff;
     font-size:18px;
     cursor: pointer;
+}
+.promo-top, .promo-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo-text, .promo-image{
+    width: 50%;
+}
+.promo-text{
+    padding:0px 80px;
 }
